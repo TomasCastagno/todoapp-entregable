@@ -137,7 +137,7 @@ app.post('/tasks', async (req, res) => {
 });
 
 
-// actualizar el status de la tera (isCompleted)
+// actualizar el status de la tarea (isCompleted)
 app.put('/tasks/:id', async (req, res) => {
   try {
     const { id } = req.params;
